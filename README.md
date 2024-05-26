@@ -7,7 +7,7 @@ Welcome to our GitHub repository itsdk109 dedicated to customizing the Kali Linu
 sudo apt update
 ```
 
-### 2. **"After the terminal opens, type `nano ~/.zshrc` or `nano ~/.bashrc` and press enter."**
+### 2. **After the terminal opens, type `nano ~/.zshrc` or `nano ~/.bashrc` and press enter.**
 
 ```bash
 nano ~/.zshrc
@@ -18,7 +18,7 @@ or
 nano ~/.bashrc
 ```
 
-### 3. "Copy the code provided below and paste it at the end of the opened file `~/.zshrc` or `~/.bashrc`."
+### 3. **Copy the code provided below and paste it at the end of the opened file `~/.zshrc` or `~/.bashrc`.**
 ```bash
 
 # Function to center text
@@ -50,7 +50,7 @@ clear() {
 
 ```
 
-### Final Step: Terminal Restart Karein
+### Final Step:  Restart the Terminal 
 
 ```bash
 source ~/.zshrc
