@@ -1,5 +1,3 @@
-Bilkul, yeh rahe sabhi steps ek snapshot me:
-
 ### 1. **Terminal Emulator Install Karein**
 
 ```bash
