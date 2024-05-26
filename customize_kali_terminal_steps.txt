@@ -102,4 +102,4 @@ echo "neofetch" >> ~/.zshrc
 source ~/.zshrc
 ```
 
-Is snapshot ko follow karke aap apne Kali Linux terminal ko professional aur stylish bana sakte hain. Enjoy karein apne naye customized terminal ka look!
+Is snapshot ko follow karke aap apne Kali Linux terminal ko professional aur stylish bana sakte hain. Enjoy karein apne naye customized terminal ka look!.
