@@ -1,4 +1,5 @@
 ## How to Customize Kali Linux Terminal Like Hacker?
+
 Welcome to our GitHub repository itsdk109 dedicated to customizing the Kali Linux terminal! Here, you'll find a comprehensive guide on how to personalize your terminal using Oh My Zsh, a powerful framework for managing Zsh configurations.
 
 ### 1. ** Open Terminal Prompt & Update and install figlet lolcat package**
