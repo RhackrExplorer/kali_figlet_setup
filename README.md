@@ -36,16 +36,16 @@ center_text() {
 
 # Custom banner message for new terminals
 if [ -n "$PS1" ]; then
-    figlet -w 100 -c "Learn Tech With Deepak" | lolcat
-    center_text "<<< This Terminal Can Hack Your Computer >>>" | lolcat
+    figlet -w 100 -c "your terminal banner name" | lolcat
+    center_text "<<< your favorite quotes >>>" | lolcat
 fi
 
 # Redefine the clear command to show the banner and quote after clearing the screen
 clear() {
     command clear
     if [ -n "$PS1" ]; then
-        figlet -w 100 -c "Learn Tech With Deepak" | lolcat
-        center_text "<<< This Terminal Can Hack Your Computer >>>" | lolcat
+        figlet -w 100 -c "your terminal banner name" | lolcat
+        center_text "<<< your favorite quotes >>>" | lolcat
     fi
 }
 
