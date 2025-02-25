@@ -6,6 +6,7 @@ Welcome to our GitHub repository itsdk109 dedicated to customizing the Kali Linu
 
 ```bash
 sudo apt update
+sudo apt install lolcat 
 ```
 
 ### 2. **After the terminal opens, type `nano ~/.zshrc` or `nano ~/.bashrc` and press enter.**
