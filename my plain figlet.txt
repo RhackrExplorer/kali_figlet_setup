@@ -1,0 +1,35 @@
+# Function to center text
+center_text() {
+    local term_width
+    local padding
+    local text="$1"
+    term_width=$(tput cols)
+    padding=$(( (term_width - ${#text}) / 2 ))
+    printf "%*s%s\n" "$padding" "" "$text"
+}
+
+# Divider line
+divider() {
+    printf "%*s\n" "$(tput cols)" "" | tr ' ' '─'
+}
+
+# Custom banner message for new terminals
+if [ -n "$PS1" ]; then
+    echo ""
+    figlet -w 95 -c "name_name"
+    echo ""
+    center_text "[Root access is not a privilege — it's a responsibility]"
+    echo ""
+fi
+
+# Redefine the clear command to show the banner after clearing
+clear() {
+    command clear
+    if [ -n "$PS1" ]; then
+        echo ""
+        figlet -w 95 -c "name_name"
+        echo ""
+        center_text "[Root access is not a privilege — it's a responsibility]"
+        echo ""
+    fi
+}
